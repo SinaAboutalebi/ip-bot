@@ -1,5 +1,4 @@
 //---------------------------🤍🍷 'Zer0Power 🤍🍷---------------------------//
-const config = require("../../config.json");
 const { ActivityType } = require("discord.js");
 
 module.exports = (client) => {
