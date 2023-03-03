@@ -25,9 +25,9 @@ module.exports = {
 
         console.log(cyan, "[🖥️] Coded By Savage 0P🦠");
         //Call Functions
-        //client.joinVoice();
+        client.sendIP();
         //client.memberCount();
-        //client.statusChanger();
+        client.statusChanger();
     },
 };
 //---------------------------💔🚬 'Zer0Power 💔🚬---------------------------//
