@@ -1,0 +1,25 @@
+{
+  "name": "ip-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zer0Power/ip-botmain.git"
+  },
+  "author": "Savage ZeroPower",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zer0Power/ip-botmain/issues"
+  },
+  "homepage": "https://github.com/Zer0Power/ip-botmain#readme",
+  "dependencies": {
+    "@discordjs/rest": "1.1",
+    "discord-api-types": "^0.37.35",
+    "discord.js": "v14.3",
+    "dotenv": "^16.0.3"
+  }
+}

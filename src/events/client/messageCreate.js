@@ -1,10 +1,5 @@
 //---------------------------🤍🍷 'Zer0Power 🤍🍷---------------------------//
 const { EmbedBuilder, PermissionsBitField } = require("discord.js");
-const steamidResolver = require("steamid-resolver");
-const SteamIDpack = require("steamid");
-const axios = require("axios");
-const pm = require("pretty-ms");
-const config = require("../../config.json");
 
 module.exports = {
     name: "messageCreate",
