@@ -35,18 +35,16 @@ module.exports = (client) => {
             try {
                 const ipData = await getIP()
 
-                client.sendIP = async () => {
-                    client.users.fetch(config.adminId).then(dm => {
-                        dm.send(ipData)
-                    })
-                }
+               client.users.fetch(config.adminId).then(dm => {
+                dm.send(":satellite: Your currnet ip address is:`" + ipData + "`")
+            })
 
 
             } catch (err) {
                 if (err) return err;
             }
 
-        }, 21600000);
+        }, 28800000);
 
 
     }
