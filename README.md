@@ -1,2 +1,2 @@
-# ip-bot
+# ip bot
 .
